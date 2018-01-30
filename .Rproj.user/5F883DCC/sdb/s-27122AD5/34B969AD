@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "numAvailable <- 496\nlifeListAccumulations <- NULL\ncumLifeList <- NULL\ncurrentYear <- 1\n\nwhile (numAvailable > 0)\n{\n  t <- rbinom(1, numAvailable, 0.15)\n  lifeListAccumulations <- c(lifeListAccumulations, t)\n  numAvailable <- numAvailable - t\n  if (currentYear == 1)\n  {\n    cumLifeList <- c(cumLifeList, t)\n  }\n  else\n  {\n    cumLifeList <- c(cumLifeList, cumLifeList[currentYear-1] + t)\n  }\n  \n  currentYear <- currentYear + 1\n}",
+    "created" : 1517333579741.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1176122952",
+    "id" : "34B969AD",
+    "lastKnownWriteTime" : 1517334011,
+    "last_content_update" : 1517334011640,
+    "path" : "C:/Users/brand/OneDrive/Blog Stuff/yearly-life-list/simplePercentage.R",
+    "project_path" : "simplePercentage.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
