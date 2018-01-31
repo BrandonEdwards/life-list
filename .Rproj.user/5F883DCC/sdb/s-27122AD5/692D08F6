@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1517338165439.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "692D08F6",
+    "lastKnownWriteTime" : 0,
+    "last_content_update" : 1517338165439,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "3FDC991A",
+        "caption" : "cumulativeData",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=cumulativeData&cache_key=3FDC991A",
+        "displayedObservations" : 69,
+        "environment" : "",
+        "object" : "cumulativeData",
+        "preview" : 0,
+        "totalObservations" : 69,
+        "variables" : 2
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
